@@ -2,7 +2,7 @@ sudo: required
 dist: trusty
 
 language: 
-  - cpp
+  - c
 
 compiler:
   - gcc
@@ -32,5 +32,3 @@ before_script:
 
 script:
   - ./bin/main
-  - ./test/tests
-  - ./benchmark/benchmarks
